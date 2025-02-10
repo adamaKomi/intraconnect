@@ -1,0 +1,15 @@
+.error-message {
+    color: #ff0000; /* Couleur du texte rouge */
+    font-size: 1rem !important; /* Taille de la police */
+    font-weight: bold; /* Police en gras */
+    margin-bottom: 10px; /* Marge en bas pour l'espacement */
+}
+
+.obligatoire-etoile{
+    color:red;
+    font-weight:900;
+}
+
+.color{
+    color: #c1c1c186;
+}

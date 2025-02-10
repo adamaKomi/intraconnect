@@ -1,0 +1,1 @@
+document.querySelector("body > div.main-content-wrapper.d-flex.flex-column > div.content-page-box-area > div > div.col-lg-6.col-md-12 > div > div:nth-child(5) > div.post-body")

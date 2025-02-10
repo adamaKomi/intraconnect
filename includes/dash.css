@@ -1,0 +1,39 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  } */
+
+  .container-circle {
+    width: 1500px!important;
+    height: 500px!important;
+  }
+
+  .histogram {
+    display: flex;
+    align-items: flex-end;
+    height: 300px;
+    width: 600px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.bar {
+    width: 20%;
+    margin: 0 5px;
+    background-color: #4CAF50;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #fff;
+    font-weight: bold;
+}
+
+.bar::after {
+    content: attr(data-value);
+    margin-bottom: 5px;
+}

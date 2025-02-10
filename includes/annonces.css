@@ -1,0 +1,59 @@
+body div {
+    font-size: 16px !important;
+}
+
+h1 {
+    text-align: center !important;
+}
+
+/* CSS personnalisé pour définir la hauteur du carrousel */
+.carousel {
+    height: 100vh;
+    /* La moitié de la hauteur de la fenêtre visible */
+}
+
+#carousel .carousel-item,
+.carousel #carousel-item img {
+    min-width: 100%;
+}
+
+#carouselExample {
+    width: 80% !important;
+    height: 80vh !important;
+    margin: auto !important;
+    margin-top: 200px !important;
+    margin-bottom: 100px !important;
+}
+
+#carouselExample .carousel-item {
+    position: relative !important;
+}
+
+#carouselExample .carousel-item .carousel-caption {
+    position: absolute !important;
+    top: 10px !important;
+}
+
+#carouselExample .carousel-item img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.carousel-inner {
+    border-radius: 10px !important;
+}
+
+#carouselExample .carousel-title, #carouselExample .carousel-description {
+    background-color: rgba(246, 249, 255, 0.5) !important;
+    color: black !important;
+    font-weight: bold !important;
+    padding: 3px !important;
+}
+
+
+
+
+/* .carousel-control-prev,
+.carousel-control-next {
+    opacity: 1 !important;
+} */

@@ -1,0 +1,81 @@
+body {
+  font-family: sans-serif;
+  background-color: #f5f5f5; /* Couleur de fond clair */
+}
+
+header {
+  background-color: #333; /* Couleur de fond sombre pour l'entête */
+  color: #fff; /* Couleur de texte blanche pour l'entête */
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff; /* Titre blanc */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff; /* Lien blanc */
+}
+
+.wrapper {
+  display: flex;
+}
+
+.sidebar-left {
+  width: 200px;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.sidebar-right {
+  width: 200px;
+  padding: 20px;
+  background-color: #eee;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff; /* Fond blanc pour la section principale */
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.section-top-left,
+.section-top-right {
+  width: 50%;
+  float: left;
+  background-color: #f9f9f9; /* Couleur de fond gris clair pour les sections supérieures */
+}
+
+.section-large {
+  clear: both;
+  background-color: #fff; /* Fond blanc pour la section principale */
+}
+
+.elements {
+  /* Style pour les éléments de la section principale */
+}
+
+footer {
+  background-color: #333; /* Couleur de fond sombre pour le pied de page */
+  color: #fff; /* Couleur de texte blanche pour le pied de page */
+  text-align: center;
+  padding: 20px;
+}
